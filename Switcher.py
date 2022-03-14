@@ -34,8 +34,8 @@ if user_input == 1:
         switch = input("Enter Switch IP Here:  ")
         port = int(input("Specify Port Number:  "))
         print("\n")
-        password = 'j0hn256w00'
-        username = 'gus'
+        password = 'example'
+        username = 'example'
 
         tn = telnetlib.Telnet(switch)
         tn.read_until(b"Username: ")
